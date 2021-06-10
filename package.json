@@ -1,0 +1,16 @@
+{
+    "name": "esve",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/turtle89431/esve.git",
+    "author": "Walter Winser <turtle89431@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": " concurrently  \"cd Svelte && yarn dev\" \"cd Express && nodemon yarn start \"",
+        "build": ""
+    },
+    "dependencies": {
+        "concurrently": "^6.2.0",
+        "nodemon": "^2.0.7"
+    }
+}
